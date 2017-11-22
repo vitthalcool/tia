@@ -1,0 +1,45 @@
+ .dark_blue {
+    color: #3d3d56;
+}
+
+.light_brown {
+    color: #ff6666;
+}
+
+.dark_red {
+    color: #ff3333 !important;
+    font-weight: 600;
+}
+
+.dark_green {
+    color: #33cc33 !important;
+    font-weight: 600;
+}
+
+.light_blue {
+    color: #a7a7b3;
+}
+
+.info p {
+    font-family: 'Ubuntu-Light';
+    font-size: 1em;
+}
+
+.bg-transparent {
+    background-color: transparent!important;
+}
+.no-border {
+    border: 0!important;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}

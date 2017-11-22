@@ -1,0 +1,118 @@
+.error-page {
+	padding: 60px 0;
+    text-align: center;
+    background: #f16858;
+    font-family: 'Ubuntu-Regular';
+    width: 100%;
+    position: absolute;
+}
+
+.error-page .error-top-wrapper {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.error-page .error-top-wrapper img {
+    margin: 0 auto;
+    position: relative;
+}
+
+.error-page .error-top-wrapper .error-top-item {
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error-page .error-top-wrapper .error-top-item p {
+    font-size: 2em;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    color: #3d3d56;
+}
+
+.error-page .error-bottom-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.error-btn {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 45px;
+    color: #3d3d56;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-size: 1.2857142857142858em;
+    font-weight: 600;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.error-btn:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px){
+	.error-page .error-top-wrapper {
+	    padding: 0 30px;
+	}
+	.error-page .error-top-wrapper .error-top-item p {
+        font-size:  1.7142857142857142em;
+   }
+   .error-btn {
+       padding: 16px 40px;
+   }
+}
+
+@media (max-width: 767px) and (min-width: 480px){
+	.error-page{
+		height: 100%;
+	}
+	.error-page .error-top-wrapper .error-top-item {
+	    top: 65%;
+	}
+	.error-page .error-top-wrapper .error-top-item p {
+        font-size: 1.4285714285714286em;
+    }
+    .error-btn {
+	    padding: 14px 36px;
+	    font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px){
+	.error-page{
+		height: 100%;
+	}
+	.error-page .error-top-wrapper {
+	    padding: 0 15px;
+	}
+	.error-page .error-top-wrapper .error-top-item {
+	    top: 56%;
+	}
+	.error-page .error-top-wrapper .error-top-item p {
+      font-size: 0.9285714285714286em;
+    }
+    .error-btn {
+	    padding: 10px 24px;
+	    font-size: 0.9285714285714286em;
+    }
+    .error-demo-4 .error-top-wrapper .error-top-item p {
+	    font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.error-demo-4 .error-top-wrapper .error-top-item p {
+	    font-size: 0.8571428571428571em;
+	}
+}
